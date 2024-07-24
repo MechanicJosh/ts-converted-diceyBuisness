@@ -17,7 +17,7 @@ Clicking the button should create a new Die object (thus causing a div to be add
 The dice should show up on your page in a grid, similar to the layout of DOM DOM DOMMMMMMM.
 The page must contain a button labeled Roll Dice, which should call the roll method on all the dice, updating their values.
 Hints
-
+ 
 You can set a property on your Die object that holds the div representing the die on the page.
 You will probably want to store each Die you create in a global array. This may be helpful when it comes time to roll all the dice.
 Clicking the Roll Dice button can loop through that array, where you will have access to the properties and methods of each Die object.

@@ -1,7 +1,7 @@
 class Die {
     static diceArray = [];
     static counter = 0;
-    constructor(){
+    constructor(){ 
         Die.counter++;
         this.id = Die.counter;
         this.div = document.createElement('div');
